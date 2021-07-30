@@ -17,11 +17,11 @@ Learn and practice Reactjs by Tyler Nguyen
     ```bash
     npm start
     ```
-Fork this repo ⬇️
-![GitHub forks](https://img.shields.io/github/forks/Tylerflx/React?style=social)
-If you like this repo, please give me a +1 ⭐️
-![GitHub Repo stars](https://img.shields.io/github/stars/Tylerflx/React?style=social)
-Follow for more small learning projects :
-![GitHub followers](https://img.shields.io/github/followers/Tylerflx?style=social)
+Fork this repo ⬇️\
+![GitHub forks](https://img.shields.io/github/forks/Tylerflx/React?style=social)\
+If you like this repo, please give me a +1 ⭐️\
+![GitHub Repo stars](https://img.shields.io/github/stars/Tylerflx/React?style=social)\
+Follow for more small learning projects :\
+![GitHub followers](https://img.shields.io/github/followers/Tylerflx?style=social)\
 
 🙏🏻 Much appreciate!
