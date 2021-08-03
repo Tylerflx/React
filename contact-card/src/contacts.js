@@ -10,7 +10,7 @@ const contacts =[
     {
         id: 2,
         name: "Julian V.",
-        picURL: "https://media-exp1.licdn.com/dms/image/C4E03AQE6_iSRrmrTpA/profile-displayphoto-shrink_100_100/0/1626624187289?e=1632960000&v=beta&t=bDKl7GkwgZTOE8UipRj_PkfNL2Iwd5VW_2g5dW_58cs",
+        picURL: "https://media-exp1.licdn.com/dms/image/C4E03AQFFp00Ij9AxRw/profile-displayphoto-shrink_100_100/0/1627694970669?e=1633564800&v=beta&t=dm5zUmrqSsC8WxDjIVC9LGxXd7BeQOzXXaILUHv3DPo",
         phone: "987-654-321",
         email: "jv@crosscountry.com"
 
