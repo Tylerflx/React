@@ -4,59 +4,75 @@ function App() {
   // const [fname, setFirstName] = useState("");
   // const [lname, setLastName] = useState("");
   //instead we can use object
-  const [fullName, setFullName] = useState({
+  const [contact, setContact] = useState({
     fName: "",
-    lName: ""
+    lName: "",
+    email: ""
   });
-
   // function updateFName(event) {
   //   setFirstName(event.target.value);
   // }
   // function updateLName(event) {
   //   setLastName(event.target.value);
   // }
-
-  function handleChange(event) {
-    // const newVal = event.target.value;
-    // const inpName = event.target.name;
-
-    //use object destructering
-    const { value, name } = event.target;
-
-    setFullName((preVal) => {
-      //if input name change on fName
-      if (name === "fName") {
-        return {
-          //return an object
-          fName: value, //with new val on fName
-          lName: preVal.lName //use old lName, default is ""
-        };
-      } else if (name === "lName") {
-        return {
-          fName: preVal.fName, //name thing with lName changed
-          lName: value
-        };
-      }
+  function updateContact(event){
+    const {name, value} = event.target; //get the updated value name its name
+    //update by setContact 
+    setContact(preValue =>{
+      // if (name === "fName"){
+      //   return {
+      //   fName : value ,
+      //   lName : preValue.lName ,
+      //   email : preValue.email
+      //   };
+      // }else if (name === "lName"){
+      //   return{
+      //     fName : preValue.fName,
+      //     lName : value,
+      //     email : preValue.email
+      //   };
+      // }else if(name === "email"){
+      //   return {
+      //     fName : preValue.fName,
+      //     lName : preValue.lName,
+      //     email : value
+      //   };
+      // }
+      return {
+        //using spread operator in ES6
+        ...preValue,
+        [name] : value
+      };
     });
   }
+
+
 
   return (
     <div className="container">
       <h1>
-        Hello {fullName.fName} {fullName.lName}
+        Hello {contact.fName} {contact.lName}
       </h1>
+      <p>{contact.email}</p> 
       <form>
         <input
           name="fName"
-          value={fullName.fName}
-          onChange={handleChange}
+          value={contact.fName}
+          onChange={updateContact}
           placeholder="First Name"
         />
         <input
           name="lName"
-          value={fullName.lName}
-          onChange={handleChange}
+          value={contact.lName}
+          onChange={updateContact}
           placeholder="Last Name"
+        />
+        {/* added email field */}
+        <input
+          name="email"
+          value={contact.email}
+          onChange={updateContact}
+          placeholder="Email"
         />
         <button>Submit</button>
       </form>
