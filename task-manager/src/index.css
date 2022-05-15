@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body {
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9) ), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/265330/anime-neighbor-totoro_176258.jpg');
+	background-size: cover;
+	background-opacity: .3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
