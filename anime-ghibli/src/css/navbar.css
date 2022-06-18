@@ -1,0 +1,5 @@
+.nav-img img {
+    display: flex;
+    margin: 1rem auto;
+    max-width: 30%;
+  }

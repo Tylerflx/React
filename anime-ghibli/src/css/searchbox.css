@@ -1,0 +1,40 @@
+svg {
+    fill: #fbc2eb;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  input {
+    all: unset;
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    background: linear-gradient(120deg, #a6c1ee 0%, #fbc2eb 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+      /* -moz-text-fill-color: transparent;
+      -webkit-text-fill-color: transparent; */
+    display: inline-block
+  }
+
+  form {
+    background-color: transparent;
+    width: 300px;
+    height: 44px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 1rem auto;
+
+    
+}
