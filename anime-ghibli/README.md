@@ -4,13 +4,13 @@
 
 ### Main Page
 
-[![MainPage](https://github.com/Tylerflx/React/anime-ghibli/src/img/main.png?raw=true)](https://github.com/Tylerflx/)
+[![MainPage](https://github.com/Tylerflx/React/blob/main/anime-ghibli/src/img/main.png?raw=true)](https://github.com/Tylerflx/)
 
 ### Detail Page
 
-[![MainPage](https://github.com/Tylerflx/React/anime-ghibli/src/img/detail-page.png?raw=true)](https://github.com/Tylerflx/)
+[![DetailPage1](https://github.com/Tylerflx/React/blob/main/anime-ghibli/src/img/detail-page.png?raw=true)](https://github.com/Tylerflx/)
 
-[![MainPage](https://github.com/Tylerflx/React/anime-ghibli/src/img/detail-page2.png?raw=true)](https://github.com/Tylerflx/)
+[![DetailPage2](https://github.com/Tylerflx/React/blob/main/anime-ghibli/src/img/detail-page2.png?raw=true)](https://github.com/Tylerflx/)
 
 ## About project
 
