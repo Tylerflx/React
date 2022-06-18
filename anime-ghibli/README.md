@@ -35,7 +35,20 @@ The project is based on working with API data. API address - https://ghibliapi.h
 ![Css](https://img.shields.io/badge/-Css3-000?style=for-the-badge&logo=css3)
 ![HTML](https://img.shields.io/badge/-html5-000?style=for-the-badge&logo=html5)
 
-## Follow Me
+## Author
 
-[![git](https://img.shields.io/badge/-git-fff?style=for-the-badge&logo=git)](https://github.com/Tylerflx)
-[![gmail](https://img.shields.io/badge/-gmail-fff?style=for-the-badge&logo=gmail)](https://mail.google.com/mail/Tylernguyen33325@gmail.com)
+👤 **Tyler Nguyen**
+
+[![git](https://img.shields.io/badge/-git-000?style=for-the-badge&logo=git)](https://github.com/Tylerflx)
+[![gmail](https://img.shields.io/badge/-gmail-000?style=for-the-badge&logo=gmail)](https://mail.google.com/mail/Tylernguyen33325@gmail.com)
+[![linkedin](https://img.shields.io/badge/-linkedin-000?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/tylernguyen0727/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
